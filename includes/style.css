@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: #5E5E5E;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: #1A1A1A;
+    margin: 0;
+}
+
+.nav-header-main{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.header-logo img{
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+    width: 45px;
+    height: 45px;
+}
+
+.nav-header-main ul{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.nav-header-main ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 50px;
+}
+
+.nav-header-main ul li a {
+    text-decoration: none;
+    display: block;
+    color: #2FAC18;
+    font-size: 14px;
+    padding: 0 20px;
+    transition: 0.3s;
+}
+
+.nav-header-main ul li a:hover {
+    background-color: #2b2b2b;
+}
+
+.header-login {
+    position: absolute;
+    right: 0;
+    height: 50px;
+    justify-content: space-around;
+    display: inline-block;
+}
+
+.header-login form {
+    display: inline-block;
+    line-height: 50px;
+}
+
+.header-login input {
+    line-height: 32px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #bcbcbc;
+    background: none;
+    border-bottom: 1px solid #2FAC18;
+}
+
+.header-login button {
+    margin: 0 5px 0 0;
+    border: none;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #2FAC18;
+    border-radius: 50px;
+    background-color: rgba(43,43,43,1);
+}
+
+.header-login button:hover {
+    background-color: rgba(43,43,43,0.5);
+}
+
+.header-login a {
+    margin: 0 5px 0 0;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #2FAC18;
+    border-radius: 50px;
+    background-color: rgba(43,43,43,1);
+}
+
+.header-login a:hover {
+    background-color: rgba(43,43,43,0.5);
+}
+
+main{
+    margin: 20px 0;
+    padding: 0;
+}
+
+.wrapper-main {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.section-default {
+    width: 80%;
+    margin: 0 auto 10px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #8A8A8A;
+}
+
+.clock {
+    width: 100px;
+    padding: 15px;
+    background: #1A1A1A;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.clock-time, .clock-ampm {
+    line-height: 20px;
+    font-size: 20px;
+    color: #2FAC18;
+}
+
+.clock-ampm {
+    font-size: 16px;
+}
+
+.login-status {
+    width: 50%;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 40px;
+    background: #1A1A1A;
+    color: #2FAC18;
+}
+
+.signuperror {
+    width: 325px;
+    margin: 0 auto 10px;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    color: #AC1818;
+    background-color: #1A1A1A;
+    border-radius: 10px;
+}
+
+.signupsuccess {
+    width: 325px;
+    margin: 0 auto 10px;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    color: #2FAC18;
+    background-color: #1A1A1A;
+    border-radius: 10px;
+}
+
+.section-default h1 {
+    width: 250px;
+    margin: 0 auto 10px;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    color: #2FAC18;
+    background-color: #1A1A1A;
+    border-radius: 10px;
+}
+
+.form-signup {
+    width: 325px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    background-color: #1A1A1A;
+    border-radius: 10px;
+}
+
+.form-signup input {
+    width: 80%;
+    display: flex;
+    margin: 10px auto;
+    line-height: 28px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #bcbcbc;
+    background: none;
+    border-bottom: 1px solid #2FAC18;
+}
+
+.form-signup button {
+    display: grid;
+    width: 80%;
+    margin: 20px auto 10px;
+    padding: 5px;
+    border: 2px solid #2FAC18;
+    font-size: 16px;
+    color: #2FAC18;
+    background: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-signup button:hover {
+    background-color: #2b2b2b;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #ddd;
+}
