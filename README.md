@@ -10,8 +10,8 @@
   from that video and change it to OOP.
   
 ## Credits
-  The Code for the log in system\n
+  The Code for the log in system
   https://www.youtube.com/watch?v=LC9GaXkdxF8&list=PL0eyrZgxdwhwBToawjm9faF1ixePexft-&index=44&t=1822s
   
-  The Code for digitalClock.js\n
+  The Code for digitalClock.js
   https://www.youtube.com/watch?v=JXHgDS8rIkM
